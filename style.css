@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #FAF6EF;
+}
+nav{
+    width: 100%;
+    /* height: 10vh; */
+    /* background-color: red; */
+    border-bottom: 2px solid;
+    position: fixed;
+    z-index: 500;
+    background-color: #FAF6EF;
+    padding: 15px;
+}
+nav  i{
+    color: black;
+    /* margin: 20px 10px 20px 0; */
+    font-size: 4vh;
+    
+    margin: 40px 0;
+    margin-right: 10px;
+}
+nav > img{
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* padding: 20px 0; */
+    /* padding: 20px 0; */
+    /* margin-top: 6px; */
+}
+nav span{
+    position: absolute;
+    right: 0%;
+}
+.headerimg img{
+    width: 98%;
+    margin: 1% 1%;
+    margin-top: 5%;
+}
+.headerimg{
+    border-bottom: 1px solid black;
+}
+.big-links{
+    font-size: 130px;
+    text-align: center;
+    display: inline-block;
+    line-height: 80px;
+}
+.big-links a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    line-height: 110px;
+}
+.big-links a:hover{
+    color: rgb(83, 43, 226);
+    text-decoration: underline;
+}
+.bigdot{
+    font-size: 180px;
+    line-height: 70px;
+}
+
+.videotop{
+    background-color: #FF39A4;
+    font-size: 40px;
+    padding: 12px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.videotop:hover{
+    color: #FAF6EF;
+}
+video{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+h4{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
+.inpara{
+    margin: 30px 30px;
+    font-size: 70px;
+    
+}
+.inpara:nth-child(1){
+    line-height: 60px;
+    
+}
+.inpara:nth-child(2){
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.inpara:nth-child(2):hover{
+    color: rgb(83, 43, 226);
+    
+}
+.para{
+    padding-bottom: 70px;
+    border-bottom: 1px solid black;
+}
+.para2{
+    position: relative;
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+}
+.para2 h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin-left: 20px;
+    position: absolute;
+    
+}
+.para2 h5{
+    color: black;
+    position: absolute;
+    right: 2%;
+    bottom: 20%;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+
+}
+
+.pricing-table{
+    position: relative;
+}
+.pricing-table>li{
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.pricing-table .type{
+    position: absolute;
+    left: 1%;
+}
+.pricing-table .duration{
+    position: absolute;
+    left: 50%;
+}
+.pricing-table .price{
+    position: absolute;
+    right: 1%;
+}
+.pricing-table>li .strike{
+    text-decoration: line-through;
+
+}
+.pricing-table>li .bluep{
+    color: #623CEA;
+}
+.pricing-table>li:last-child{
+    border: none;
+    margin-bottom: 100px;
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.left-box{
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.right-box{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    padding: 10px;
+}
+.left-box>div,.right-box>div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 60px;
+    
+    
+}
+.left-box>div>h1,.right-box>div>h1{
+    font-weight: 500;
+    font-size: 137px;
+}
+.left-box>div>span,.right-box>div>span{
+    font-size: 130px;
+    position: absolute;
+    bottom: 0%;
+}
+.tshirt{
+    font-size: 80px;
+    position: relative;
+
+
+}
+.tshirt span{
+    transform: translate(40%,0);
+    position: absolute;
+}
