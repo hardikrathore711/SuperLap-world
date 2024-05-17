@@ -50,10 +50,11 @@ nav span{
     border-bottom: 1px solid black;
 }
 .big-links{
+    padding: 30px;
     font-size: 130px;
     text-align: center;
     display: inline-block;
-    line-height: 80px;
+    line-height: 120px;
 }
 .big-links a{
     text-decoration: none;
@@ -212,12 +213,131 @@ h4{
     bottom: 0%;
 }
 .tshirt{
-    font-size: 80px;
-    position: relative;
-
+    font-size: 140px;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
 
 }
+.tshirt img{
+    height: 140px;
+    transform: translateY(15px);
+}
 .tshirt span{
-    transform: translate(40%,0);
+    text-align: center;
+}
+.maraq{
+    margin-bottom: 110px;
+}
+.watch p{
+    padding: 40px 10px 10px 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -3px;
+}
+.watch{
+    border-bottom: 1px solid black;
+}
+.watch img{
+    width: 33%;
+}
+.watch img:nth-child(3){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.watch>hr{
+    transform: translateY(-30px);
+    color: black;
+}
+.pink{
+    background-color: #FF39A4;
+    position: relative;
+    padding: 12px;
+}
+.pink>h1{
+    display: inline;
+    font-size: 80px;
+    font-weight: 300;
+}
+.pink>.pinkright{
     position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pinkright>span:nth-child(1){
+    padding-right: 20px;
+    
+}
+.pinkright>span:nth-child(2):hover{
+    color: #FAF6EF;
+    cursor: pointer;
+}
+.pinkright>span{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bottom{
+    position: relative;
+    height: 40vh;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.block1,.block2,.block3{
+    display: inline-block;
+    width: 33%;
+    height: 40vh;
+    padding: 20px;
+}
+.block1>img{
+    height: 100px;
+
+}
+.block1{
+    position: absolute;
+    top: 0%;
+}
+.block2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.block2>ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+.block2 li{
+    line-height: 26px;
+    font-size: 18px;
+}
+.block2 li:hover{
+    color: rgb(83, 43, 226);
+    cursor: pointer;
+}
+.block3{
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+    
+}
+.block3>h5{
+    position: absolute;
+    bottom: 10%;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.block3>h5:hover{
+    color: rgb(83, 43, 226);
+    cursor: pointer;
+}
+footer{
+    padding: 20px;
+    font-size: 14px;
 }
